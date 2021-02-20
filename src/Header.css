@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+.header_logo {
+  width: 100px;
+}
+.header_center {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  max-width: 600px;
+}
+.header_center > button {
+  display: none;
+}
+.header_center > input {
+  flex: 1;
+  width: 100%;
+  border: none;
+}
+.header_center > input:focus {
+  outline: none;
+}
+.header_right {
+  display: flex;
+  width: 15vw;
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgb(99, 99, 99);
+}
